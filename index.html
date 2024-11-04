@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Animated Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center transition-all duration-500" id="background">
+    <div class="text-center">
+        <h1 id="greeting" class="text-4xl md:text-6xl text-white font-bold opacity-0 transform transition-all duration-1000 animate-fadeInUp">
+            Hello World!
+        </h1>
+        <button id="changeBtn" class="mt-8 px-6 py-3 bg-white text-purple-600 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+            Change Message
+        </button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
